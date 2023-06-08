@@ -1,0 +1,22 @@
+{
+    "name": "EM.GameKit.Extenject",
+    "rootNamespace": "",
+    "references": [
+        "UniTask",
+        "Zenject",
+        "EM.Foundation",
+        "EM.GameKit",
+        "EM.UI",
+        "EM.ProfileSystem",
+        "EM.BuildSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
