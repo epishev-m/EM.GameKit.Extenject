@@ -11,7 +11,6 @@ public static class ProfileDiContainerExtensions
 		IVersionConfig versionConfig,
 		ISaveConfig saveConfig)
 	{
-		container.BindInterfacesTo<StorageSegmentReceiverFactory>().AsSingle();
 		container.Bind<JsonSerializeConfig>().ToSelf().AsSingle();
 		container.BindInterfacesTo<JsonStorageSerializer>().AsSingle();
 		container.BindInterfacesTo<FileStorageLocation>().AsSingle();

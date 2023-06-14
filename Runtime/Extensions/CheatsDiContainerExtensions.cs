@@ -13,7 +13,6 @@ public static class CheatsDiContainerExtensions
 		container.Bind<CheatTest>().ToSelf().AsSingle();
 		container.Bind<CheatsRouter>().ToSelf().AsSingle();
 		container.Bind<CheatsViewModel>().ToSelf().AsSingle();
-		container.BindInterfacesTo<CheatFactory>().AsSingle();
 
 		return container;
 	}
