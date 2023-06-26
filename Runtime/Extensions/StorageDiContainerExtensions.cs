@@ -7,7 +7,8 @@ public static class StorageDiContainerExtensions
 {
 	public static DiContainer BindStorage(this DiContainer container)
 	{
-		container.Bind<Storage>().ToSelf().AsSingle();
+		container.BindInterfacesTo<Storage>().AsSingle();
+		container.Bind<StorageSaver>().ToSelf().AsSingle();
 
 		return container;
 	}
